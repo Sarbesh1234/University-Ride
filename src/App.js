@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import Login from "./Components/Login.jsx";
+
 
 function App() {
   return (
-    <div>
+    <div className="login">
+      <Login />
     </div>
   );
 }
